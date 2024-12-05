@@ -1,0 +1,126 @@
+nav {
+    background-color: #20263b;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 10;
+  }
+
+  a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: Minecraft;
+   
+  }
+
+  .nave:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    background-color: #3b56ad;
+  }
+
+  a.split {
+  float: right;
+  background-color: #3b56ad;
+  color: white;
+  }
+
+  @font-face {
+    font-family: Minecraft;
+    src: url(Minecraft.ttf);
+}
+
+
+body {
+margin: 0;
+background-color: rgb(162, 199, 236);
+}
+
+.img1
+{
+width: 700px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+
+.img2
+{
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.p1
+{
+margin: left;
+padding: 20px 20px;
+}
+
+#main {
+background-image: url("papea.jpg");
+padding: 15px;
+background-position: center;
+background-size: cover;
+box-shadow: 200px;
+}
+
+.img2 {
+  float: right;
+  width: 300px;
+}
+
+p{
+  color: #20263b;
+  font-family: Minecraft;
+}
+
+.pos_cen {
+position: absolute;
+width: 70%;
+left: 15%;
+padding: 30px;
+}
+
+.p1 {
+bottom: 20px;
+font-size: 30px;
+}
+
+.button {
+  border: none;
+  color: white;
+  background-color: #3b56ad;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-family: Minecraft;
+  margin: 4px 2px;
+  margin-top: 200px;
+  margin-left: 400px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.why {
+  position: relative;
+  font-size: 35px;
+}
+
+.button:hover {
+  transform: scale(1.05);
+    transition: transform 0.3s;
+}
