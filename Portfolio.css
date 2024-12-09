@@ -10,7 +10,7 @@ nav {
     z-index: 10;
   }
 
-  a {
+  .nave {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -123,4 +123,42 @@ a:hover {
 .button:hover {
   transform: scale(1.05);
     transition: transform 0.3s;
+}
+
+.gah {
+  width: 300px;
+}
+
+.media {
+  text-align: center;
+  font-family: Minecraft;
+  Font-size: 40px;
+  padding: 30px;
+  color: #20263b;
+}
+
+p {
+  letter-spacing: 1px;
+}
+
+a {
+  letter-spacing: 2px;
+}
+
+h2 {
+  letter-spacing: 4px;
+}
+
+.gah:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: Minecraft;
 }
