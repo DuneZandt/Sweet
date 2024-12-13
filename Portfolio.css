@@ -162,3 +162,48 @@ a {
   font-size: 19px;
   font-family: Minecraft;
 }
+
+.email {
+  text-align: center;
+  font-family: Minecraft;
+  Font-size: 35px;
+  padding: 10px;
+  color: #20263b;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: Minecraft;
+  text-align: center;
+}
+
+.nice {
+  padding: 20px;
+}
+
+.brake {
+  padding: 20px;
+}
+
+h3{
+  font-family: Minecraft;
+  text-align: center;
+  color: #9f0606;
+  letter-spacing: 2px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.obie {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 20px;
+}
+
+.mei {
+  padding: 20px;
+}
